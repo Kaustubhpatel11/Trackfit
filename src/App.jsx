@@ -1,15 +1,18 @@
 import './App.css';
+import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
+  
       <nav>
         <div className="logo">TrackFit</div>
         <ul className="nav-links">
-          <li>Home</li>
+          <li><Link to ="./">Home</Link></li>
           <li>Track</li>
-          <li>My Workouts</li>
-          <li>Login</li>
+          <li>ABOUT US</li>
+          <li><Link to ="./login">Login</Link></li>
         </ul>
       </nav>
 

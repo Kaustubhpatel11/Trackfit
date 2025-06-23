@@ -1,5 +1,16 @@
 /* style.css */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-links li a {
+  text-decoration: none;      /* removes underline */
+  color: inherit;             /* makes link same color as parent li */
+}
+
+
 * {
   margin: 0;
   padding: 0;
